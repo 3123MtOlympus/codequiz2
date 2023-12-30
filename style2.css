@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    text-shadow: 2px 2px 3px rgb(231, 183, 61);
+    text-align: center;
+}
+
+.quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-box {
+  text-align: center;
+}
+
+.result-box {
+    display: none;
+}
+
+.options {
+   text-align: center;
+    margin-top: 10px;
+}
+
+.timer {
+    border: 5px solid darkgoldenrod;
+    box-shadow: inset 0 0 5px 5px rgb(231, 183, 61), 2px 2px 5px aliceblue;
+    border-radius: 5px;
+    padding: 5px;;
+    width: 20%;
+    margin-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.next-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+button {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    box-shadow: 1px 3px 5px black;
+    background-color: red;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgb(20, 38, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+
+}
+
+
+button:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: small;
+    text-shadow: 1px 1px 5px white;
+    box-shadow: inset 0 0 10px rgb(50, 50, 75);
+    color: black;
+}
+
+main {
+    padding: 25px;
+    border: 5px solid darkgoldenrod;
+    background-color: darkcyan;
+    box-shadow: inset 0 0 5px 5px rgb(231, 183, 61), 2px 2px 5px aliceblue;
+    width: 50%;
+}

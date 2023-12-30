@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+  <title>JavaScript Quiz</title>
+</head>
+
+<body>
+  <main>
+    <div class="quiz-container">
+      <div class="quiz-box">
+        <h2>JavaScript Quiz</h2>
+        <div class="question" id="question"></div>
+        <div class="options" id="options"></div>
+        <div class="timer" id="timer">Time Left: <span id="time">15</span> seconds</div>
+
+        <button class="start-btn" onclick="startQuiz()">Start</button>
+        <button class="show-reults" onclick="showResult()">Results</button>
+
+      </div>
+
+
+
+      <div class="result-box" id="result-box">
+        <h2>Your Quiz Result</h2>
+        <p id="score"></p>
+        <ul id="score-list"></ul>
+      </div>
+    </div>
+    <button id="show-scores-btn" onclick="showScores()">Show Scores</button>
+  </main>
+
+  <script defer src="script3.js"></script>
+</body>
+
+</html>
